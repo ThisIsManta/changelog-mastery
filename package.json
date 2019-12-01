@@ -1,6 +1,6 @@
 {
   "name": "changelog-mastery",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Generates CHANGELOG.md from Git commit messages since last version tag.",
   "author": "Anantachai Saothong <thisismanta@outlook.com>",
   "license": "MIT",
