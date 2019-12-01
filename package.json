@@ -20,7 +20,7 @@
     "version": "node index.js && npm publish",
     "postversion": "git push --tags origin master"
   },
-  "devDependencies": {
+  "dependencies": {
     "lodash": "^4.17.15"
   }
 }
