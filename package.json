@@ -1,0 +1,26 @@
+{
+  "name": "changelog-mastery",
+  "version": "0.0.0",
+  "description": "Generates CHANGELOG.md from Git commit messages since last version tag.",
+  "author": "Anantachai Saothong <thisismanta@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThisIsManta/changelog-mastery/issues"
+  },
+  "homepage": "https://github.com/ThisIsManta/changelog-mastery#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThisIsManta/changelog-mastery.git"
+  },
+  "keywords": [
+    "changelog"
+  ],
+  "bin": "index.js",
+  "scripts": {
+    "version": "node index.js && npm publish",
+    "postversion": "git push --tags origin master"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.15"
+  }
+}
