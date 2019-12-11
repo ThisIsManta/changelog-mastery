@@ -7,7 +7,7 @@ const cp = require('child_process')
 const _ = require('lodash')
 
 const currentVersion = require(fp.join(ps.cwd(), 'package.json')).version
-const recentVersion = _.chain(cp.execSync(`git --no-pager tag --list 'v*' --sort=version:refname`, { encoding: 'utf-8' }).split('\n'))
+const recentVersion = _.chain(cp.execSync(`git --no-pager tag --sort=version:refname`, { encoding: 'utf-8' }).split('\n'))
 	.filter(line => /^v\d+\.\d+\.\d+$/.test(line))
 	.last()
 	.defaultTo('v')
