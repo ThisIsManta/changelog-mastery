@@ -7,9 +7,9 @@ Running `changelog-mastery --dry-run` will print out the new _CHANGELOG.md_ to y
 ### Sample of CHANGELOG.md
 
 ```markdown
-## 0.0.2 - 2019-12-05
+### 0.0.2 - 2019-12-05
 - Fix typos.
 
-## 0.0.1 - 2019-12-01
+### 0.0.1 - 2019-12-01
 - Release publicly.
 ```
